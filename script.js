@@ -55,6 +55,7 @@ searchBtn.addEventListener('click', () => {
                     </div>
                 </div>
             `
+
         }).catch(() => {
             if (countryName.length == 0) {
                 result.innerHTML = `<h3>The input field cannot be empty</h3>`
@@ -67,6 +68,6 @@ searchBtn.addEventListener('click', () => {
 
 document.body.addEventListener("keypress", (e) => {
     if(e.key == "Enter") {
-        alert("bunaqa funksiya hali yoq")
+        alert("hali bunaqa funksiya yoq")
     }
 })
